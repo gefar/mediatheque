@@ -1,0 +1,195 @@
+
+
+div.results.flex.results_backdrop_card, div.results.flex.results_poster_card, div.results.flex.results_profile_card {
+  justify-content: space-between;
+}
+
+div.results.flex.results div.item:nth-child(-n+4), div.results.flex.results_backdrop_card div.item:nth-child(-n+2), div.results.flex.results_poster_card div.item:nth-child(-n+2) {
+  margin-top: 16px;
+}
+div.item.poster.card {
+  display: flex;
+  align-items: center;
+}
+div.item.card {
+  width: 483px;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+.card {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  background-color: #fff;
+}
+
+div.item.poster.card div.image_content {
+  width: 185px;
+}
+
+div.item.poster div.image_content, div.item.backdrop div.image_content {
+  height: 278px;
+  line-height: 0;
+}
+div.image_content {
+  overflow: hidden;
+}
+
+div.results.flex div.item {
+  margin-top: 30px;
+  color: #000;
+}
+
+div.image_content a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  line-height: 0;
+}
+
+div.item p a, div.item a {
+  color: #000;
+  font-weight: 400;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  font-weight: normal;
+}
+a {
+  background: transparent;
+}
+
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
+}
+div.item.poster div.image_content, div.item.backdrop div.image_content {
+  height: 278px;
+  line-height: 0;
+}
+div.results.flex div.item {
+  margin-top: 30px;
+  color: #000;
+}
+div.item.poster div.image_content img {
+  width: 185px;
+  height: 278px;
+}
+.fade.lazyloaded {
+  opacity: 1;
+}
+.fade {
+  will-change: opacity;
+  opacity: 0;
+  transition: opacity 100ms;
+}
+img, a img {
+  outline: none;
+}
+img {
+  border: 0;
+}
+div.image_content a {
+  width: 100%;
+  height: 100%;
+  display: block;
+  line-height: 0;
+}
+div.item p a, div.item a {
+  color: #000;
+  font-weight: 400;
+}
+a {
+  color: #000;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+
+
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+div.item.poster.card div.info {
+  width: 298px;
+  height: 278px;
+  position: relative;
+  box-sizing: border-box;
+  padding: 10px 16px 16px 16px;
+  overflow: hidden;
+}
+
+
+div {
+  display: block;
+}
+div.results.flex div.item {
+  margin-top: 30px;
+  color: #000;
+}
+
+
+
+div.item.card div.wrapper {
+  display: flex;
+}
+
+div.item.card div.wrapper div.flex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+div.consensus.tight+div.flex {
+  margin-left: 10px;
+}
+
+div.item.card div.wrapper a {
+  width: 100%;
+  display: block;
+  font-weight: 600;
+  font-size: 1.1em;
+  line-height: 1.1em;
+}
+
+div.item p a, div.item a {
+  color: #000;
+  font-weight: 400;
+}
+
+div.item.card div.wrapper span {
+  color: rgba(0,0,0,0.6);
+  line-height: 1em;
+}
+div.item.card p.overview {
+  word-wrap: break-word;
+  white-space: normal;
+  color: #4d4d4d;
+  font-size: 0.9em;
+  line-height: 1.2em;
+  margin-top: 30px;
+}
+div.item p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0;
+  width: 100%;
+  line-height: 1.2em;
+  margin: 0;
+}
+
+
+div.item.card p.view_more {
+  border-top: 1px solid #e3e3e3;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 16px;
+}
+div.item p:last-of-type {
+  margin-bottom: 0;
+}

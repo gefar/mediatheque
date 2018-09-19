@@ -1,0 +1,26 @@
+<div class="row">
+    <div class="col-lg-6 col-md-6 col-xs-12 box" *ngFor="let movie of movies">
+        <div class="body">
+            <div class="image_content col-md-5">
+                <a class="result" href="/movies/{{movie.id}}" title="{{movie.title}}">
+
+                    <img class="poster " data-sizes="auto"
+                         alt="{{movie.title}}"
+                         src="http://localhost:8080/movies/pictures{{movie.name_pic}}">
+                </a>
+            </div>
+            <div class="info col-md-7">
+                <div class="flex">
+                    <a class="flex" href="/movies/{{movie.id}}" title="{{movie.title}}">{{movie.title}}</a>
+                    <span>{{movie.release_date |date:'dd MMMM y'}}</span>
+                </div>
+                <p class="overview">{{movie.summary | slice:0:300}}...</p>
+                <p class="view_more"><a class="result" href="/movies/{{movie.id}}" title="{{movie.title}}">Plus
+                    d'informations</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+

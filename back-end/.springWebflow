@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webflow-project-description>
+	<version>1</version>
+	<pluginVersion><![CDATA[3.9.4.201804120850-RELEASE]]></pluginVersion>
+	<configs>
+		<config>
+			<file>src/main/resources/test.xml</file>
+			<name><![CDATA[test]]></name>
+			<beans-config><![CDATA[1:BeansModel|2:movie-library-4|3:java:com.gefar.movies.MovieLibrary4Application]]></beans-config>
+		</config>
+	</configs>
+</webflow-project-description>
